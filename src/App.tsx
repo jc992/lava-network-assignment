@@ -94,7 +94,7 @@ const App = (): JSX.Element => {
   }, [client]);
 
   /**
-   * Start up StargateClient and fetch initial data
+   * Fetch initial data
    */
   useEffect(() => {
     // We create function for bootstrapping necessary data for initial app load
